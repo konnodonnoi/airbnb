@@ -6,7 +6,7 @@ import Practice from './components/Practice';
 
 import './fonts/fonts.css';
 import './App.css';
-import './components/Contact.css';
+
 
 
 const App = () => {

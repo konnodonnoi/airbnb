@@ -2,8 +2,11 @@ import React from 'react'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Card from './components/Card';
-import './fonts/fonts.css'
+import Practice from './components/Practice';
+
+import './fonts/fonts.css';
 import './App.css';
+import './components/Contact.css';
 
 
 const App = () => {
@@ -12,6 +15,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Card />
+      <Practice />
     </div>
   )
 }

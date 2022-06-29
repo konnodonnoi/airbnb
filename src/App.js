@@ -1,29 +1,33 @@
-import React from 'react'
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Card from './components/Card';
-import Practice from './components/Practice';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Card from "./components/Card";
+import Practice from "./components/Practice";
 
-import './fonts/fonts.css';
-import './App.css';
-
-
+import "./fonts/fonts.css";
+import "./App.css";
 
 const App = () => {
   return (
     <div>
       <Navbar />
       <Hero />
-      <Card />
+      <Card
+        img="katie.png"
+        rating="5.0"
+        reviewCount={6}
+        country="Nigeria"
+        title="Life Lessons with Katie Zaferes"
+        price={136}
+      />
       <Practice />
     </div>
-  )
-}
+  );
+};
 
 export default App;
 
 // import React from 'react';
-
 
 // const style = {
 //   table: {
@@ -65,36 +69,36 @@ export default App;
 //     <form >
 //       <label>First name:</label>
 //       <br />
-//       <input 
+//       <input
 //         style={style.form.inputs}
 //         className='userFirstname'
-//         name='userFirstname' 
+//         name='userFirstname'
 //         type='text'
 //       />
 //       <br/>
 //       <label>Last name:</label>
 //       <br />
-//       <input 
+//       <input
 //         style={style.form.inputs}
 //         className='userLastname'
-//         name='userLastname' 
-//         type='text' 
+//         name='userLastname'
+//         type='text'
 //       />
 //       <br />
 //       <label>Phone:</label>
 //       <br />
 //       <input
 //         style={style.form.inputs}
-//         className='userPhone' 
-//         name='userPhone' 
+//         className='userPhone'
+//         name='userPhone'
 //         type='text'
 //       />
 //       <br/>
-//       <input 
-//         style={style.form.submitBtn} 
+//       <input
+//         style={style.form.submitBtn}
 //         className='submitButton'
-//         type='submit' 
-//         value='Add User' 
+//         type='submit'
+//         value='Add User'
 //       />
 //     </form>
 //   )
@@ -103,13 +107,13 @@ export default App;
 // function InformationTable(props) {
 //   return (
 //     <table style={style.table} className='informationTable'>
-//       <thead> 
+//       <thead>
 //         <tr>
 //           <th style={style.tableCell}>First name</th>
 //           <th style={style.tableCell}>Last name</th>
 //           <th style={style.tableCell}>Phone</th>
 //         </tr>
-//       </thead> 
+//       </thead>
 //     </table>
 //   );
 // }
@@ -128,7 +132,6 @@ export default App;
 //   <App />,
 //   document.getElementById('root')
 // );
-
 
 // import React from 'react';
 // import ReactDOM from 'react-dom';
@@ -181,53 +184,49 @@ export default App;
 //     [event.target.name]: event.target.value
 //   }
 //  })
-  
+
 // }
 
 //   return (
 //     <form >
 //       <label>First name:</label>
 //       <br />
-//       <input 
+//       <input
 //         style={style.form.inputs}
 //         className='userFirstname'
-//         name='userFirstname' 
+//         name='userFirstname'
 //         type='text'
 //         onChange={handleChange}
-    
-     
+
 //       />
 //       <br/>
 //       <label>Last name:</label>
 //       <br />
-//       <input 
+//       <input
 //         style={style.form.inputs}
 //         className='userLastname'
-//         name='userLastname' 
-//         type='text' 
+//         name='userLastname'
+//         type='text'
 //         onChange={handleChange}
-        
-     
-      
+
 //       />
 //       <br />
 //       <label>Phone:</label>
 //       <br />
 //       <input
 //         style={style.form.inputs}
-//         className='userPhone' 
-//         name='userPhone' 
+//         className='userPhone'
+//         name='userPhone'
 //         type='text'
 //         onChange={handleChange}
-       
-        
+
 //       />
 //       <br/>
-//       <input 
-//         style={style.form.submitBtn}  
+//       <input
+//         style={style.form.submitBtn}
 //         className='submitButton'
-//         type='submit' 
-//         value='Add User' 
+//         type='submit'
+//         value='Add User'
 //       />
 //     </form>
 //   )
@@ -236,13 +235,13 @@ export default App;
 // function InformationTable(props) {
 //   return (
 //     <table style={style.table} className='informationTable'>
-//       <thead> 
+//       <thead>
 //         <tr>
 //           <th style={style.tableCell}>First name</th>
 //           <th style={style.tableCell}>Last name</th>
 //           <th style={style.tableCell}>Phone</th>
 //         </tr>
-//       </thead> 
+//       </thead>
 //     </table>
 //   );
 // }

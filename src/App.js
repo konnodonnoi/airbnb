@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
-import Practice from "./components/Practice";
+
 
 import "./fonts/fonts.css";
 import "./App.css";
@@ -20,7 +20,7 @@ const App = () => {
         title="Life Lessons with Katie Zaferes"
         price={136}
       />
-      <Practice />
+      
     </div>
   );
 };

@@ -1,0 +1,40 @@
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.Card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+}
+
+.Card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+/* ADD */
+.Card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.Card--star {
+    height: 14px;
+}
+
+/* ADD */
+.Card--price {
+    margin-top: auto;
+}

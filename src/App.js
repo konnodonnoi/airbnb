@@ -7,6 +7,9 @@ import Card from "./components/Card";
 import "./fonts/fonts.css";
 import "./App.css";
 
+//gotta understand mapping
+
+
 const App = () => {
   return (
     <div>
